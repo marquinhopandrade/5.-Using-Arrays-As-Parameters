@@ -7,9 +7,7 @@ namespace _5._Using_Arrays_As_Parameters
         static void Main(string[] args)
         {
             int[] studentsGrades = new int[] { 15, 13, 8, 12, 6 };
-            double averageResult = GetAverage(studentsGrades);
-            Console.WriteLine("The average is: {0}", averageResult);
-        }
+            double averageResult = GetAverage(studentsGrades);        }
 
         static double GetAverage(int[] gradesArray)
         {
